@@ -1,0 +1,28 @@
+@media  screen and (max-width: 600px) {
+    #logo img{
+        margin-top: 5px;
+        height: 8vh;
+    }
+    .icon h4{
+        display: none;
+    }
+    #tittle h1{
+        font-size: 9vh;
+        line-height: 6vh;
+        letter-spacing: -1px;
+        line-height: 7vh;
+    }
+    #info{
+        margin-top: 8vh;
+        margin-left: 2.5vh;
+        height: 30vh;
+    }
+    #info h4,h3 {
+        font-size: 3vh;
+        font-weight: 500;
+      }
+    #mid > h1{
+        font-size: 7vw;
+    }
+
+}
