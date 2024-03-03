@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body,html{
+    font-family: 'gilroy';
+    height: 100%;
+    width: 100%;
+}
+main{
+    overflow: hidden;
+}
+#main{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+nav{
+    height: 70px;
+    padding: 2vh 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+.icon i{
+    color: white;
+    font-size: 3vh;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+    
+}
+.icon h4{
+    position: relative;
+    padding: 10px 20px;
+    border: 2px solid #F0EDCF;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    overflow: hidden;
+
+}
+
+.icon h4 a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    z-index: 9;
+    
+}
+.icon h4:hover a{
+    color: black;
+    
+}
+.icon h4::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #40A2D8;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+.icon h4:hover::before{
+    bottom: 0;
+    border-radius: 0;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+
+}
+#logo img{
+    margin-top: 50px;
+    border: 2px solid rgb(234, 226, 226);
+    border-radius: 50%;
+    height: 16vh;
+    object-fit: cover;
+    z-index: 9;
+}
+#logo h4{
+    color: white;
+}
+#contactform{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 0vh 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#left{
+    margin-bottom: 10vh;
+    height: 75vh;
+    width: 40vw;
+    padding: 3vh 4vh;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  35px 35px 70px #bebebe,-35px -35px 70px #ffffff;
+}
+#right{
+    height: 100vh;
+    width: 45%;
+}
+#right img{
+    height: 70vh;
+    width: 100%;
+    margin-top: 15vh;
+    object-fit: cover;
+}
+#contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#contact-tittle h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #40A2D8;
+}
+#contact-tittle hr{
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    height: 2px;
+    width: 120px;
+    background-color: #40A2D8;
+}
+#contact input{
+    width: 60%;
+
+}
+#contact button img{
+    display: none;
+    transition: all ease 0.3s;
+}
+#contact button:hover img{
+    display: block;
+}
+
+#contact button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5vh;
+    gap: 2vh;
+    padding: 15px 9px;
+    border: 1px solid black;
+    height: 7vh;
+    width: 9vw;
+    border-radius: 30px;
+    background-color: white;
+    transition: all ease 0.3s;
+}
+#contact button:hover{
+    background-color: #40A2D8;
+    color: white;
+}
+.contact-input{
+    margin-bottom: 20px;
+    padding: 15px 9px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}

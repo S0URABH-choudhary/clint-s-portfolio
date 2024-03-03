@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+nav{
+    height: 70px;
+    padding: 2vh 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1vw;
+    
+}
+.icon h4{
+    position: relative;
+    padding: 10px 20px;
+    border: 2px solid #F0EDCF;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    overflow: hidden;
+
+}
+
+.icon h4 a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    z-index: 9;
+    
+}
+.icon h4:hover a{
+    color: black;
+    
+}
+.icon h4::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #40A2D8;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+.icon h4:hover::before{
+    bottom: 0;
+    border-radius: 0;    
+}
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+
+}
+#logo img{
+    margin-top: 50px;
+    border: 2px solid rgb(234, 226, 226);
+    border-radius: 50%;
+    height: 16vh;
+    object-fit: cover;
+    z-index: 9;
+}
+#logo h4{
+    color: white;
+}
+#home{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+}
+#homecontent{
+    max-width: 600px;
+    margin-top: 140px;
+    margin-left: 90px;
+}
+#homecontent :nth-child(3){
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+#homecontent :nth-child(3) span{
+    color: #40A2D8;
+}
+#homecontent h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+#homecontent h3{
+    font-weight: 500;
+
+}
+#homeimage{
+    position: relative;
+}
+#splash{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    filter: blur(1px);
+
+}
+#shivam{
+    position: relative;
+    max-width: 450px;
+    filter: drop-shadow(20px 10px 30px );
+    
+}
+#button{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 18px 0;
+    padding: 1vw 2vw;
+    border: 1px solid rgb(101, 95, 95);
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    transition: all ease .3s;
+}
+#button:hover{
+    background-color: #40A2D8;
+    color: white;
+}
+#ball{
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    left: -30px;
+    bottom: -30px;
+    background-color: #40A2D8;
+    filter:blur(1px) drop-shadow(0px 0px 20px #5783db)
+}
+#ball2{
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    left: 20%;
+    top: 82px;
+    background-color: #40A2D8;
+    filter:blur(1px) drop-shadow(0px 0px 20px #5783db)
+}
+#ball3{
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    left: 45%;
+    bottom: 35px;
+    background-color: #40A2D8;
+    filter:blur(1px) drop-shadow(0px 0px 20px #5783db)
+}
