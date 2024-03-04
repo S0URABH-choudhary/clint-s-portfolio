@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px){
+    #logo img{
+        margin-top: 5px;
+        height: 8vh;
+    }
+    .icon h4{
+        display: none;
+    }
+    #home{
+        flex-direction: column-reverse;
+    }
+    #ball2{
+        top: 10%;
+        left: -30%;
+    }
+    #ball3{
+        top: 43%;
+    }
+    #ball{
+        display: none;
+    }
+    #homecontent{
+        width: 400px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    #homecontent p{
+        opacity: .5;
+
+    }
+}
