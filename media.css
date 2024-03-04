@@ -11,21 +11,30 @@
     }
     #ball2{
         top: 10%;
-        left: -30%;
+        left: -40%;
     }
     #ball3{
+        left: 90%;
         top: 43%;
     }
     #ball{
         display: none;
     }
+    #homecontent h1{
+        font-size: 14vw;
+    }
+
     #homecontent{
         width: 400px;
         margin-top: 40px;
         margin-left: 20px;
     }
     #homecontent p{
+        padding: 4px;
         opacity: .5;
 
+    }
+    #splash{
+        display: none;
     }
 }
