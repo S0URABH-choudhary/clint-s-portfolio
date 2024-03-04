@@ -21,6 +21,9 @@
         margin-top: 5px;
         height: 8vh;
     }
+    .icon i{
+        display: block;
+    }
     .icon h4{
         display: none;
     }

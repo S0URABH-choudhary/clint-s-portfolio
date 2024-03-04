@@ -29,6 +29,7 @@ nav{
     background-color: #000000;
 }
 .icon i{
+    display: none;
     color: white;
     font-size: 3vh;
 }
