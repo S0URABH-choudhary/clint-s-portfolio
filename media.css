@@ -11,17 +11,17 @@
     }
     #ball2{
         top: 10%;
-        left: -40%;
+        left: -0%;
     }
     #ball3{
-        left: 90%;
+        left: 70%;
         top: 43%;
     }
     #ball{
         display: none;
     }
     #homecontent h1{
-        font-size: 14vw;
+        font-size: 12vw;
     }
 
     #homecontent{
