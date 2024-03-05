@@ -283,14 +283,14 @@ nav {
   border-radius: 50px;
   position: absolute;
   right: 0;
-  margin-right: 15vh;
+  margin-right:  10%;
   height: 80vh;
-  width: 0vh;
+  width: 0;
   border: 0px solid black;
   transition: all ease 0.4s;
 }
 #certificate:hover img {
-  width: 140vh;
+  width: 80%;
   border: 3px solid black;
 }
 
@@ -323,4 +323,10 @@ nav {
   background-color: #40a2d8;
   border: 1px solid black;
   border-radius: 50px;
+}
+#hello{
+  display: none;
+}
+.mobilenavbar{
+  display: none;
 }

@@ -96,7 +96,7 @@ nav{
 }
 #contactform{
     position: relative;
-    height: 100vh;
+    height: calc(100% - 70px);
     width: 100%;
     padding: 0vh 8vh;
     display: flex;
@@ -177,4 +177,7 @@ nav{
     border: 1px solid black;
     border-radius: 20px;
 
+}
+.mobilenavbar{
+    display: none;
 }
