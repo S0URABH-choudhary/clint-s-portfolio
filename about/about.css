@@ -271,7 +271,7 @@ nav {
 #certificate {
   display: flex;
   justify-content: space-between;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   margin-left: 15vh;
 }
@@ -283,7 +283,7 @@ nav {
   border-radius: 50px;
   position: absolute;
   right: 0;
-  margin-right: 5vh;
+  margin-right: 15vh;
   height: 80vh;
   width: 0vh;
   border: 0px solid black;
@@ -299,6 +299,7 @@ nav {
   font-weight: 500;
   border-left: 3px solid #40a2d8;
 }
+
 #certificate h1 {
   font-size: 60px;
   font-weight: 600;

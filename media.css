@@ -1,4 +1,32 @@
 @media screen and (max-width: 600px){
+    
+   
+    #nav2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px white solid;
+        position: absolute;
+        width: 100%;
+        height: 35vh;
+        background-color: black;
+        z-index: 999;
+        transition: all .5s;
+        overflow: hidden;
+    }
+    .cheakbox:hover #nav2{
+        height: 0;
+    }
+    #nav2 a{
+        text-decoration: none;
+        color: #fff;
+        margin-top: 5vh;
+        font-size: 27px;
+    }
+    #nav2 a:hover{
+        color: #40a2d8;
+    }
+    
     #logo img{
         margin-top: 5px;
         height: 8vh;

@@ -94,9 +94,7 @@ nav {
   justify-content: space-between;
   padding: 70px;
 }
-#homecontent p {
-  opacity: 0.5;
-}
+
 #homecontent {
   max-width: 700px;
   margin-top: 140px;
@@ -175,4 +173,7 @@ nav {
   bottom: 35px;
   background-color: #40a2d8;
   filter: blur(1px) drop-shadow(0px 0px 20px #5783db);
+}
+.nav2{
+  display: none;
 }

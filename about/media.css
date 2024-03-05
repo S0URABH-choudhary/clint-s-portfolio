@@ -27,5 +27,42 @@
     #mid > h1{
         font-size: 7vw;
     }
+    #footer{
+        margin: 0;
+    }
+    #greating{
+        margin: 0;
+    }
+    #servises{
+        margin: 5vh 5vh;
+    }
+    #servises h1{
+        font-size: 6vh;
+    }
+    #servises h5{
+        margin-right: 13vh;
+        opacity: .5;
+        line-height: 4vh;
+    }
+    #back{
+        display: none;
+    }
+    #certificate{
+        height: 33vh;
+        flex-direction: column;
+        margin-left: 5vh;
+        margin-top: 40vh;
+    }
+    #certificate img{
+        display: none;
+    }
+    #hello{
+        width: 370px;
+        margin: 0px 10px;
+        border: 1px black solid;
+        border-radius: 20px;
+        object-fit: cover;
+    }
+
 
 }
