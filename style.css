@@ -118,6 +118,7 @@ nav {
   position: relative;
 }
 #splash {
+  display: block;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -125,6 +126,7 @@ nav {
   filter: blur(1px);
 }
 #shivam {
+  display: block;
   position: relative;
   max-width: 450px;
   filter: drop-shadow(20px 10px 30px);
@@ -175,5 +177,11 @@ nav {
   filter: blur(1px) drop-shadow(0px 0px 20px #5783db);
 }
 .mobilenavbar{
+  display: none;
+}
+#phoneprofileimage{
+  display: none;
+}
+#profileline{
   display: none;
 }

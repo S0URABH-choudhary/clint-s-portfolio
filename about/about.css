@@ -269,6 +269,7 @@ nav {
   line-height: 5vh;
 }
 #certificate {
+  position: relative;
   display: flex;
   justify-content: space-between;
   height: 120vh;

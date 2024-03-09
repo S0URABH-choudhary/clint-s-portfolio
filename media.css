@@ -1,4 +1,5 @@
 @media screen and (max-width: 600px){
+
     #logo img{
         margin-top: 5px;
         height: 6vh;
@@ -14,11 +15,11 @@
     }
     #ball2{
         top: 10%;
-        left: -30%;
+        left: -40%;
     }
     #ball3{
         left: 85%;
-        top: 43%;
+        top: 50%;
     }
     #ball{
         display: none;
@@ -40,6 +41,9 @@
     #splash{
         display: none;
     }
+    #shivam{
+        display: none;
+    }
     .mobilenavbar{
         border-top: 2px solid white;
         position: relative;
@@ -59,7 +63,7 @@
         
     }
     #check:checked ~ul{
-        height: 35vh;
+        height: 40vh;
         
     }
     .mobilenavbar ul li{
@@ -77,5 +81,18 @@
     }
     .mobilenavbar ul li:hover a{
         color: #40A2D8;
+    }
+    #phoneprofileimage{
+        position: relative;
+        display: block;
+    }
+    #profileline{
+        top: 70%;
+        width: 100%;
+        height: 1.5vh;
+        background-color: #5271FF;
+        position: absolute;
+        display: block;
+        z-index: -10;
     }
 }

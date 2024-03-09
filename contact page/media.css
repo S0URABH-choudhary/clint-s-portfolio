@@ -52,7 +52,7 @@
         
     }
     #check:checked ~ul{
-        height: 35vh;
+        height: 40vh;
         
     }
     .mobilenavbar ul li{

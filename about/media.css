@@ -35,7 +35,9 @@
         margin: 0;
     }
     #servises{
+        position: relative;
         margin: 5vh 5vh;
+        margin-bottom: 5%;
     }
     #servises h1{
         font-size: 12vw;
@@ -50,6 +52,7 @@
         display: none;
     }
     #certificate{
+        position: relative;
         height: 17vh;
         flex-direction: column;
         margin-left: 5vh;
@@ -88,7 +91,7 @@
         
     }
     #check:checked ~ul{
-        height: 35vh;
+        height: 40vh;
         
     }
     .mobilenavbar ul li{
@@ -106,6 +109,11 @@
     }
     .mobilenavbar ul li:hover a{
         color: #40A2D8;
+    }
+    #forphoneview{
+        margin-bottom: 5%;
+        margin-top: 5%;
+        position: relative;
     }
 
 
