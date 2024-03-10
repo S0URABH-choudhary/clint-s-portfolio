@@ -96,7 +96,7 @@ nav {
 }
 
 #homecontent {
-  max-width: 700px;
+  max-width: 40%;
   margin-top: 140px;
   margin-left: 90px;
 }
@@ -179,9 +179,9 @@ nav {
 .mobilenavbar{
   display: none;
 }
-#phoneprofileimage{
+#mobhome{
   display: none;
 }
-#profileline{
+#bottom{
   display: none;
 }

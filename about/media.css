@@ -53,16 +53,19 @@
     }
     #certificate{
         position: relative;
-        height: 17vh;
-        flex-direction: column;
+        height: 20vh;
+        width: 100%;
         margin-left: 5vh;
-        margin-top: 40vh;
     }
     #certificate img{
         display: none;
     }
     #certificate h1{
         font-size: 11vw;
+    }
+    #certificate h4{
+        top: 0;
+        
     }
     #hello{
         display: block;
@@ -111,10 +114,23 @@
         color: #40A2D8;
     }
     #forphoneview{
+        display: block;
         margin-bottom: 5%;
         margin-top: 5%;
         position: relative;
     }
 
 
+}
+@media screen and (min-width: 425px) {
+    #certificate{
+        height: 23vh;
+    } 
+
+}
+@media screen and (min-width: 768px) {
+    #certificate{
+        height: 140vh;
+    }
+    
 }

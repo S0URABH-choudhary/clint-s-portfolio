@@ -241,8 +241,7 @@ nav {
   color: black;
 }
 #servises {
-  position: relativethth;
-  height: 40vh;
+  position: relative;
   width: 100%;
   margin: 10vh 15vh;
 }
@@ -284,7 +283,8 @@ nav {
   border-radius: 50px;
   position: absolute;
   right: 0;
-  margin-right:  10%;
+  margin-top: 2%;
+  margin-right: 15%;
   height: 80vh;
   width: 0;
   border: 0px solid black;

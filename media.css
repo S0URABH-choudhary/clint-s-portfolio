@@ -11,15 +11,13 @@
         display: none;
     }
     #home{
-        flex-direction: column-reverse;
+        display: none;
     }
     #ball2{
-        top: 10%;
-        left: -40%;
+       display: none;
     }
     #ball3{
-        left: 85%;
-        top: 50%;
+        display: none;
     }
     #ball{
         display: none;
@@ -29,7 +27,6 @@
     }
 
     #homecontent{
-        width: 400px;
         margin-top: 40px;
         margin-left: 20px;
     }
@@ -42,7 +39,10 @@
         display: none;
     }
     #shivam{
-        display: none;
+        height: 60%;
+        width: 60%;
+        border: #40A2D8 4px solid;
+        border-radius: 50%;
     }
     .mobilenavbar{
         border-top: 2px solid white;
@@ -63,11 +63,10 @@
         
     }
     #check:checked ~ul{
-        height: 40vh;
-        
+        height: 40vh;   
     }
     .mobilenavbar ul li{
-        border: 2px solid rgba(91, 85, 85, 0.903);
+        border: 2px solid rgba(160, 147, 147, 0.903);
         border-radius: 20px;
         padding: 1.5vh 3vw;
         margin-top: 10%;
@@ -79,20 +78,75 @@
         color: white;
 
     }
+
     .mobilenavbar ul li:hover a{
         color: #40A2D8;
     }
-    #phoneprofileimage{
-        position: relative;
-        display: block;
-    }
-    #profileline{
-        top: 70%;
+    #mobhome{
+        height: 100vh;
         width: 100%;
-        height: 1.5vh;
-        background-color: #5271FF;
-        position: absolute;
         display: block;
-        z-index: -10;
+        position: relative;  
+    }
+    #top{
+        position: relative;
+        height: 50vh;
+        width: 100%;
+    }
+    #background{
+        position: absolute;
+        background-color: #40A2D8;
+        height: 30vh;
+        width: 100%;
+        z-index: -999;
+    }
+    #frame{
+        position: relative;
+        top: 25%;
+        left: 20%;
+        width: 60%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: #40A2D8 5px solid;
+        border-radius: 50%;
+        background-color: white;
+    }
+    #inframe{
+        width: 70%;
+        height: 70%;
+        position: absolute;
+        border: #40A2D8 10px solid;
+        border-radius: 50%;
+        overflow: hidden;
+        background-color: orangered;
+    }
+    #inframe img{
+        position: absolute;
+        top: 10%;
+        left: 4%;
+        height: 17vh;
+        width: 20vh;
+        object-fit: cover;
+    }
+    #bottom{
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+        width: 100%;
+        padding: 6vh;
+    }
+    #bottom a{
+        text-decoration: none;
+        padding: 12px 32px;
+        border: 1px solid rebeccapurple;
+        border-radius: 5px;
+        background-color: rebeccapurple;
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+
+
     }
 }
