@@ -120,7 +120,7 @@
         border: #40A2D8 10px solid;
         border-radius: 50%;
         overflow: hidden;
-        background-color: background: rgb(47,36,222);
+        background-color:  rgb(47,36,222);
         background: linear-gradient(180deg, rgba(47,36,222,1) 25%, rgba(0,0,0,1) 81%, rgba(0,0,0,1) 89%);;
     }
     #inframe img{
