@@ -71,7 +71,14 @@
     .mobilenavbar ul li:hover a{
         color: #40A2D8;
     }
-
-    
-
+}
+@media screen and (min-width: 375px){
+    #check:checked ~ul{
+        height: 45vh;
+    }
+}
+@media screen and (min-width: 425px){
+    #check:checked ~ul{
+        height: 50vh;
+    }
 }
