@@ -205,3 +205,18 @@
         object-fit: cover;
     }
 }
+@media screen and (min-height: 876px) and (min-width: 393px){
+    #inframe img{
+        position: absolute;
+        top: 10%;
+        left: 4%;
+        height: 23vh;
+        width: 28vh;
+        object-fit: cover;
+    }
+    #frame{
+        left: 13%;
+        height: 69%;
+        width: 74%;
+    
+}
