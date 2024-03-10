@@ -205,6 +205,13 @@
         object-fit: cover;
     }
 }
+@media screen and (min-width: 320px){
+    #frame{
+        left: 15%;
+        width: 70%;
+    }
+
+}
 @media screen and (min-height: 876px) and (min-width: 393px){
     #inframe img{
         position: absolute;
