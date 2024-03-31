@@ -282,14 +282,8 @@ nav {
   margin-right: 15%;
   height: 80vh;
   width: 0;
-  border: 0px solid black;
   transition: all ease 0.4s;
 }
-#certificate:hover img {
-  width: 80%;
-  border: 3px solid black;
-}
-
 #certificate h4 {
   font-size: 30px;
   font-weight: 500;
@@ -388,4 +382,24 @@ nav {
 .container .box-container .box:hover{
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
+}
+#btn{
+  position: relative;
+  display: none;
+  justify-content: center;
+  width: 40%;
+  margin-top: 80%;
+  cursor: pointer;
+  border: 1px solid rgb(148, 142, 142);
+  border-radius: 30px;
+  background-color: royalblue;
+  color: white;
+}
+#btn h3{
+  margin: 15px 20px;
+}
+#photo2{
+  display: none;
+  position: absolute;
+  left: -4%;
 }
